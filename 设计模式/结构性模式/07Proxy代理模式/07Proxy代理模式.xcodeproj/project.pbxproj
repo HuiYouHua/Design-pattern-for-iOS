@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35E00EFB22893654005BDA1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E00EFA22893654005BDA1F /* AppDelegate.m */; };
+		35E00EFE22893654005BDA1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E00EFD22893654005BDA1F /* ViewController.m */; };
+		35E00F0022893655005BDA1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E00EFF22893655005BDA1F /* Assets.xcassets */; };
+		35E00F0322893655005BDA1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E00F0122893655005BDA1F /* Main.storyboard */; };
+		35E00F0622893655005BDA1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E00F0522893655005BDA1F /* main.m */; };
+		35E00F132289365D005BDA1F /* TrainStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E00F112289365D005BDA1F /* TrainStation.m */; };
+		35E00F142289365D005BDA1F /* TicketOutlets.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E00F122289365D005BDA1F /* TicketOutlets.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35E00EF622893654005BDA1F /* 07Proxy代理模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "07Proxy代理模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E00EF922893654005BDA1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35E00EFA22893654005BDA1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35E00EFC22893654005BDA1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35E00EFD22893654005BDA1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35E00EFF22893655005BDA1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35E00F0222893655005BDA1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35E00F0422893655005BDA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E00F0522893655005BDA1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35E00F0722893655005BDA1F /* _7Proxy____.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "_7Proxy____.entitlements"; sourceTree = "<group>"; };
+		35E00F0E2289365D005BDA1F /* Ticket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ticket.h; sourceTree = "<group>"; };
+		35E00F0F2289365D005BDA1F /* TicketOutlets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketOutlets.h; sourceTree = "<group>"; };
+		35E00F102289365D005BDA1F /* TrainStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainStation.h; sourceTree = "<group>"; };
+		35E00F112289365D005BDA1F /* TrainStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainStation.m; sourceTree = "<group>"; };
+		35E00F122289365D005BDA1F /* TicketOutlets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketOutlets.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35E00EF322893654005BDA1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35E00EED22893654005BDA1F = {
+			isa = PBXGroup;
+			children = (
+				35E00EF822893654005BDA1F /* 07Proxy代理模式 */,
+				35E00EF722893654005BDA1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35E00EF722893654005BDA1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35E00EF622893654005BDA1F /* 07Proxy代理模式.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35E00EF822893654005BDA1F /* 07Proxy代理模式 */ = {
+			isa = PBXGroup;
+			children = (
+				35E00EF922893654005BDA1F /* AppDelegate.h */,
+				35E00EFA22893654005BDA1F /* AppDelegate.m */,
+				35E00EFC22893654005BDA1F /* ViewController.h */,
+				35E00EFD22893654005BDA1F /* ViewController.m */,
+				35E00F0D2289365D005BDA1F /* Proxy */,
+				35E00EFF22893655005BDA1F /* Assets.xcassets */,
+				35E00F0122893655005BDA1F /* Main.storyboard */,
+				35E00F0422893655005BDA1F /* Info.plist */,
+				35E00F0522893655005BDA1F /* main.m */,
+				35E00F0722893655005BDA1F /* _7Proxy____.entitlements */,
+			);
+			path = "07Proxy代理模式";
+			sourceTree = "<group>";
+		};
+		35E00F0D2289365D005BDA1F /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				35E00F0E2289365D005BDA1F /* Ticket.h */,
+				35E00F0F2289365D005BDA1F /* TicketOutlets.h */,
+				35E00F102289365D005BDA1F /* TrainStation.h */,
+				35E00F112289365D005BDA1F /* TrainStation.m */,
+				35E00F122289365D005BDA1F /* TicketOutlets.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35E00EF522893654005BDA1F /* 07Proxy代理模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E00F0A22893655005BDA1F /* Build configuration list for PBXNativeTarget "07Proxy代理模式" */;
+			buildPhases = (
+				35E00EF222893654005BDA1F /* Sources */,
+				35E00EF322893654005BDA1F /* Frameworks */,
+				35E00EF422893654005BDA1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "07Proxy代理模式";
+			productName = "07Proxy代理模式";
+			productReference = 35E00EF622893654005BDA1F /* 07Proxy代理模式.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35E00EEE22893654005BDA1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "华惠友";
+				TargetAttributes = {
+					35E00EF522893654005BDA1F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 35E00EF122893654005BDA1F /* Build configuration list for PBXProject "07Proxy代理模式" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35E00EED22893654005BDA1F;
+			productRefGroup = 35E00EF722893654005BDA1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35E00EF522893654005BDA1F /* 07Proxy代理模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35E00EF422893654005BDA1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E00F0022893655005BDA1F /* Assets.xcassets in Resources */,
+				35E00F0322893655005BDA1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35E00EF222893654005BDA1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E00EFE22893654005BDA1F /* ViewController.m in Sources */,
+				35E00F132289365D005BDA1F /* TrainStation.m in Sources */,
+				35E00F0622893655005BDA1F /* main.m in Sources */,
+				35E00EFB22893654005BDA1F /* AppDelegate.m in Sources */,
+				35E00F142289365D005BDA1F /* TicketOutlets.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35E00F0122893655005BDA1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35E00F0222893655005BDA1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35E00F0822893655005BDA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		35E00F0922893655005BDA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		35E00F0B22893655005BDA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "07Proxy代理模式/_7Proxy____.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NDEAR5GZYG;
+				INFOPLIST_FILE = "07Proxy代理模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.development.-7Proxy----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		35E00F0C22893655005BDA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "07Proxy代理模式/_7Proxy____.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = NDEAR5GZYG;
+				INFOPLIST_FILE = "07Proxy代理模式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.development.-7Proxy----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35E00EF122893654005BDA1F /* Build configuration list for PBXProject "07Proxy代理模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E00F0822893655005BDA1F /* Debug */,
+				35E00F0922893655005BDA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35E00F0A22893655005BDA1F /* Build configuration list for PBXNativeTarget "07Proxy代理模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E00F0B22893655005BDA1F /* Debug */,
+				35E00F0C22893655005BDA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35E00EEE22893654005BDA1F /* Project object */;
+}
